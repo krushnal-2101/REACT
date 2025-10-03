@@ -13,6 +13,8 @@ const State = () => {
             <h1>{count}</h1>
              {/* <button onClick={handClick}>CLICK</button> */}
              <button onClick={() => setCount(count+1)}>CLICK</button>
+
+             <Props greeting={"good afternoon"} count={count}/>
         </>
     )
 }
