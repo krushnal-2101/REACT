@@ -5,9 +5,8 @@ import React from "react";
 const Onclick = () => {
 
     const handleClick = () => [
-        alert("onlick button click")
+        alert("onClick button click")
     ]
-
     
     return <button onClick={handleClick}>CLICK</button>
 }

@@ -5,12 +5,15 @@
 // import Onsubmit from "./Event/Onsubmit";
 // import { useState } from "react";
 // import PassingArgument from "./Event/PassingArgument";
-import Conditional from "./Event/Conditional";
+// import Conditional from "./Event/Conditional";
+// import List from "./list/List";
+// import ObjectList from "./list/ObjectList";
+import Focus from "./list/Refs/Focus";
 
 
 
 
-const App = () => {
+const App = () => { 
 
   // const [input, setInput] = useState("")
   return (
@@ -32,7 +35,13 @@ const App = () => {
 
       <PassingArgument name={input} /> */}
 
-      <Conditional/>
+      {/* <Conditional/> */}
+
+      {/* <List/> */}
+
+       {/* <ObjectList/> */}
+
+       <Focus/>
     </>
   );
 };
