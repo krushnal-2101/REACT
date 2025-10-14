@@ -8,7 +8,10 @@
 // import Conditional from "./Event/Conditional";
 // import List from "./list/List";
 // import ObjectList from "./list/ObjectList";
-import Focus from "./list/Refs/Focus";
+// import Focus from "./list/Refs/Focus";
+// import Control from "./Forms/Control";
+// import UnControl from "./Forms/UnControl";
+import WorkingWithForms from "./Forms/WorkingForms";
 
 
 
@@ -41,7 +44,13 @@ const App = () => {
 
        {/* <ObjectList/> */}
 
-       <Focus/>
+       {/* <Focus/> */}
+
+       {/* <Control/> */}
+
+       {/* <UnControl/> */}
+
+       <WorkingWithForms/>
     </>
   );
 };
