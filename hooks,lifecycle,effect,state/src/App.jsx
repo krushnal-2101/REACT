@@ -11,7 +11,11 @@
 // import Focus from "./list/Refs/Focus";
 // import Control from "./Forms/Control";
 // import UnControl from "./Forms/UnControl";
-import WorkingWithForms from "./Forms/WorkingForms";
+// import WorkingWithForms from "./Forms/WorkingForms";
+
+import External from "./Styling/External";
+import InlineCss from "./Styling/InlineCss";
+import Module from "./Styling/Module";
 
 
 
@@ -50,7 +54,13 @@ const App = () => {
 
        {/* <UnControl/> */}
 
-       <WorkingWithForms/>
+       {/* <WorkingWithForms/> */}
+
+       {/* <InlineCss/> */}
+{/* 
+        <External/> */} 
+
+        <Module/>
     </>
   );
 };
