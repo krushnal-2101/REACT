@@ -1,8 +1,8 @@
 form{
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     gap: 30px;
 
     padding: 50px;
@@ -28,7 +28,7 @@ form{
     background-color: #2b4ba3;
     color: white;
 }
-
+    
 .btn:hover{
     background-color: #388eff;
     color: black;
