@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 400px;
+    gap: 30px;
+
+    padding: 50px;
+     background: linear-gradient(to right, #052b29, #031f49);
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     border-radius: 10px;
+}
+
+label{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #2b4ba3;
+    color: white;
+}
