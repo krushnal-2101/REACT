@@ -14,8 +14,9 @@
 // import WorkingWithForms from "./Forms/WorkingForms";
 // import External from "./Styling/External";
 // import InlineCss from "./Styling/InlineCss";
-import Module from "./Styling/Module";
-import Validation from "./form validation/Validation";
+// import Module from "./Styling/Module";
+import Formik from "./form validation/FormikForm";
+// import Validation from "./form validation/Validation";
 
 
 
@@ -64,7 +65,9 @@ const App = () => {
 
         {/* <Module/> */}
 
-        <Validation/>
+        {/* <Validation/> */}
+
+        <Formik/>
     </>
   );
 };
