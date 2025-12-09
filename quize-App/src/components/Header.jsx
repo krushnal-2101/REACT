@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const Header = ()=> {
-    return(
-        <div><h1>QUIZ QUESTION</h1></div>
-    )
+const Header = () => {
+  return (
+    <div><h1>Quiz App</h1></div>
+  )
 }
 
 export default Header
